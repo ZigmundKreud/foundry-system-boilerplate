@@ -1,0 +1,10 @@
+{
+  "ACTOR.TypeCharacter": "Personnage",
+  "ACTOR.TypeNpc": "PNJ",
+  "ACTOR.TypeEncounter": "Rencontre",
+  "ACTOR.TypeVehicle": "Véhicule",
+
+  "ITEM.TypeItem": "Objet",
+  "ITEM.TypeFeature": "Trait",
+  "ITEM.TypeEquipment": "Equipement"
+}

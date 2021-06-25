@@ -1,0 +1,10 @@
+{
+  "ACTOR.TypeCharacter": "Character",
+  "ACTOR.TypeNpc": "NPC",
+  "ACTOR.TypeEncounter": "Encounter",
+  "ACTOR.TypeVehicle": "Vehicle",
+
+  "ITEM.TypeItem": "Object",
+  "ITEM.TypeFeature": "Feature",
+  "ITEM.TypeEquipment": "Equipment"
+}

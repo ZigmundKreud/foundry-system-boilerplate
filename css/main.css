@@ -1,0 +1,399 @@
+/* ----------------------------------------- */
+/*  Premade colors                           */
+/* ----------------------------------------- */
+.light {
+  color: lightgray;
+}
+.bg-light {
+  background: lightgray;
+}
+.darkgray {
+  color: #23221d;
+}
+.bg-darkgray {
+  background: #23221d;
+  color: #fff;
+}
+.bg-dark {
+  background: #464331c4;
+  color: #fff;
+}
+.darkslate {
+  color: darkslategray;
+}
+.bg-darkslate {
+  background: darkslategray;
+  color: #fff;
+}
+.darkgreen {
+  color: #003c1e;
+}
+.bg-darkgreen {
+  background: #003c1e;
+  color: #fff;
+}
+.darkblue {
+  color: midnightblue;
+}
+.bg-darkblue {
+  background: midnightblue;
+  color: #fff;
+}
+.blue {
+  color: #009ee0;
+}
+.bg-blue {
+  background: #009ee0;
+  color: #fff;
+}
+.green {
+  color: #44a12b;
+}
+.bg-green {
+  background: #44a12b;
+  color: #fff;
+}
+.black {
+  color: #000;
+}
+.bg-black {
+  background: #000;
+  color: #fff;
+}
+.red {
+  color: #cd071e;
+}
+.bg-red {
+  background: #cd071e;
+  color: #fff;
+}
+.purple {
+  color: purple;
+}
+.bg-purple {
+  background: purple;
+  color: #fff;
+}
+/* Functional Colors*/
+.bg-default {
+  background: #003c1e;
+  color: #fff;
+}
+.color-default {
+  color: #003c1e;
+}
+.bg-header {
+  background: #003c1e;
+  color: #fff;
+}
+.color-header {
+  color: #003c1e;
+}
+.bg-health {
+  background: #44a12b;
+  color: #fff;
+}
+.color-health {
+  color: #44a12b;
+}
+.bg-stats {
+  background: #003c1e;
+  color: #fff;
+}
+.color-stats {
+  color: #003c1e;
+}
+.bg-resource {
+  background: darkslategray;
+  color: #fff;
+}
+.color-resource {
+  color: darkslategray;
+}
+.bg-recovery {
+  background: #44a12b;
+  color: #fff;
+}
+.color-recovery {
+  color: #44a12b;
+}
+/* ----------------------------------------- */
+/*  Flexbox                                  */
+/* ----------------------------------------- */
+.flexrow {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+.flexrow > * {
+  flex: 1;
+}
+.flexrow .flex1 {
+  flex: 1;
+}
+.flexrow .flex2 {
+  flex: 2;
+}
+.flexrow .flex3 {
+  flex: 3;
+}
+.flexrow .flex4 {
+  flex: 4;
+}
+.flexrow .flex5 {
+  flex: 5;
+}
+.flexrow .flex6 {
+  flex: 6;
+}
+.flexrow .flex7 {
+  flex: 7;
+}
+.flexrow .flex8 {
+  flex: 8;
+}
+.flexrow .flex9 {
+  flex: 9;
+}
+.flexcol {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.flexcol > * {
+  flex: 1;
+}
+.flexcol .flex1 {
+  flex: 1;
+}
+.flexcol .flex2 {
+  flex: 2;
+}
+.flexcol .flex3 {
+  flex: 3;
+}
+.flexcol .flex4 {
+  flex: 4;
+}
+.flex-group-center,
+.flex-group-left,
+.flex-group-right {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+}
+.flex-group-left {
+  justify-content: flex-start;
+  text-align: left;
+}
+.flex-group-right {
+  justify-content: flex-end;
+  text-align: right;
+}
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.right {
+  justify-content: flex-end;
+  text-align: right;
+  display: flex;
+  align-items: center;
+}
+.flex-center {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.flex-between {
+  justify-content: space-between;
+}
+.no-wrap {
+  flex-wrap: nowrap !important;
+}
+/* ----------------------------------------- */
+/*  LOCAL FONTS                             */
+/* ----------------------------------------- */
+@font-face {
+  font-family: "SmackAttack BB Regular";
+  src: url('fonts/smackattackbb_reg.ttf');
+}
+@font-face {
+  font-family: "SmackAttack BB Bold";
+  src: url('fonts/smackattackbb_bld.ttf');
+}
+@font-face {
+  font-family: "Wolfsbane2";
+  src: url('fonts/wolfsbane2.ttf');
+}
+@font-face {
+  font-family: "Wolfsbane2Condensed";
+  src: url('fonts/wolfsbane2cond.ttf');
+}
+@font-face {
+  font-family: "Wolfsbane2Expanded";
+  src: url('fonts/wolfsbane2expand.ttf');
+}
+/* ----------------------------------------- */
+/*  TEXT STYLES                             */
+/* ----------------------------------------- */
+.empty {
+  color: #23221d;
+  font-style: italic;
+}
+strong {
+  font-weight: bold;
+}
+.fsb {
+  /*
+Copied from dnd5e
+ */
+  /* Form Groups */
+  /*
+ Placeholders
+ */
+}
+.fsb input[readonly="true"] {
+  border: none;
+  color: dimgray;
+  cursor: not-allowed;
+  width: 100%;
+  vertical-align: middle;
+  background: transparent;
+}
+.fsb input[type="text"],
+.fsb input[type="number"],
+.fsb input[type="text"]:hover,
+.fsb input[type="number"]:hover,
+.fsb input[type="text"]:focus,
+.fsb input[type="number"]:focus {
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+}
+.fsb input:disabled:hover,
+.fsb select:disabled:hover,
+.fsb textarea:disabled:hover,
+.fsb input:disabled:focus,
+.fsb select:disabled:focus,
+.fsb textarea:disabled:focus {
+  box-shadow: none !important;
+  border: 1px solid transparent !important;
+  outline: none !important;
+}
+.fsb button {
+  background: rgba(0, 0, 0, 0.1);
+}
+.fsb select {
+  font-size: 14px;
+  text-align: center;
+  text-align-last: center;
+  -moz-text-align-last: center;
+  width: 100%;
+  border: none;
+  border-radius: 0;
+}
+.fsb label.checkbox {
+  flex: auto;
+  padding: 0;
+  margin: 0;
+  height: 22px;
+  line-height: 22px;
+  font-size: 11px;
+}
+.fsb label.checkbox > input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin: 0 2px 0 0;
+  position: relative;
+  top: 4px;
+}
+.fsb label.checkbox.right > input[type="checkbox"] {
+  margin: 0 0 0 2px;
+}
+.fsb .form-group label {
+  flex: 2;
+  font-weight: bold;
+}
+.fsb .form-group .form-fields {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.fsb .form-group .form-fields > * {
+  flex: 1;
+  margin: 0 3px 0 0;
+}
+.fsb .form-group .form-fields > *:last-child {
+  margin-right: 0;
+}
+.fsb .form-group .form-fields > * .flex1 {
+  flex: 1;
+}
+.fsb .form-group .form-fields > * .flex2 {
+  flex: 2;
+}
+.fsb .form-group .form-fields > * .flex3 {
+  flex: 3;
+}
+.fsb .form-group .form-fields > * .flex4 {
+  flex: 4;
+}
+.fsb .form-group .form-fields label {
+  flex: 0 0 100%;
+  margin: 0;
+}
+.fsb .form-group .form-fields label.checkbox {
+  flex: auto;
+  text-align: left;
+}
+.fsb .form-group.stacked label {
+  flex: 0 0 100%;
+  margin: 0;
+}
+.fsb .form-group.stacked label.checkbox {
+  flex: auto;
+  text-align: left;
+}
+.fsb .form-header {
+  margin: 0 0 0.25em 0;
+  padding: 2px 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+.fsb .tag {
+  display: inline-block;
+  margin: 0 2px 0 0;
+  padding: 0 3px;
+  font-size: 10px;
+  line-height: 16px;
+  border: 1px solid #999;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.05);
+}
+.fsb ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: lightgray;
+  opacity: 1;
+  /* Firefox */
+}
+.fsb :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: lightgray;
+}
+.fsb ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: lightgray;
+}
+.fsb input::placeholder {
+  color: lightgray;
+}

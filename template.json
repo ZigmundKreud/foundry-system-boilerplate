@@ -1,0 +1,80 @@
+{
+  "Actor": {
+    "types": ["character", "npc", "encounter", "vehicle"],
+    "templates": {
+      "base": {
+        "biography": "",
+        "notes": ""
+      },
+      "attributes": {
+        "attributes": {
+        }
+      },
+      "skills": {
+        "skills": {
+        }
+      },
+      "resources": {
+        "resources": {
+          "hp": {
+            "key" : "hp",
+            "label" : "FSB.resources.hp",
+            "base": 0,
+            "value": 0,
+            "bonus": 0,
+            "max": 0
+          },
+          "power": {
+            "key" : "power",
+            "label" : "FSB.resources.power",
+            "value": 0,
+            "max": 0
+          }
+        }
+      },
+      "progression" : {
+        "xp": {
+          "key" : "xp",
+          "label" : "FSB.progression.xp",
+          "total": 0,
+          "spent": 0
+        }
+      }
+    },
+    "character": {
+      "templates": ["base", "attributes", "skills", "resources", "progression"]
+    },
+    "npc": {
+      "templates": ["base", "attributes", "skills", "resources", "progression"]
+    },
+    "encounter": {
+      "templates": ["base", "attributes", "skills", "resources", "progression"]
+    },
+    "vehicle": {
+      "templates": ["base", "attributes", "resources"]
+    }
+  },
+  "Item": {
+    "types": ["item", "feature"],
+    "templates": {
+      "base": {
+        "subtype" : "default",
+        "description": "",
+        "properties" : {}
+      },
+      "equipment" : {
+        "quantity": 1,
+        "weight": 0
+      }
+    },
+    "item": {
+      "templates": ["base", "equipment"],
+      "quantity": 1,
+      "weight": 0
+    },
+    "feature": {
+      "templates": ["base"]
+    }
+  }
+}
+

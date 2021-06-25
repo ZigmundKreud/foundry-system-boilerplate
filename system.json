@@ -1,0 +1,34 @@
+{
+  "name": "fsb",
+  "title": "Foundry System Boilerplate",
+  "description": "Boilerplate system for FoundryVTT!",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "0.8.8",
+  "templateVersion": 2,
+  "author": "Zigmund",
+  "esmodules": ["module/main.js"],
+  "styles": ["css/main.css"],
+  "scripts": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
+  "packs": [],
+  "gridDistance": 1.5,
+  "gridUnits": "m",
+  "primaryTokenAttribute": "traits.hp",
+  "secondaryTokenAttribute": "traits.hero",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE.txt"
+}
