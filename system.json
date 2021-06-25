@@ -29,6 +29,6 @@
   "secondaryTokenAttribute": "resources.power",
   "url": "https://github.com/ZigmundKreud/foundry-system-boilerplate",
   "manifest": "https://raw.githubusercontent.com/ZigmundKreud/foundry-system-boilerplate/main/system.json",
-  "download": "https://github.com/ZigmundKreud/foundry-system-boilerplate/archive/refs/heads/main.zip",
+  "download": "https://github.com/ZigmundKreud/foundry-system-boilerplate/archive/refs/tags/1.0.0.zip",
   "license": "LICENSE.txt"
 }
